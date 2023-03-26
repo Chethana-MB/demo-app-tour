@@ -1,4 +1,6 @@
-* {
+
+/* Global Style*/
+ *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -41,11 +43,11 @@
     padding:1.5rem 4.5rem;
     border:none;
     border-radius: 2rem;
-    color:aliceblue;
+    color:powderblue;
     cursor:pointer;
     transition:8.5s ease-in-out;
   }
-  button : hower {
+  button : hover {
     background-color:[#1]
   }
   /* Section Navbar  */
@@ -92,6 +94,93 @@
   }
   
   /* section home */
-  background-color:url{
-    
+  .home {
+    background-image:linear-gradient(rgba(0,0,0,0.781),transparent),
+    url('./images/Section1.jpg');
+    min-height:90vh;
+    background-position:center;
+    background-size:cover;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: :center;
+    color:aliceblue;
+    text-align:center;
+  }
+  .home h3{
+    padding-bottom: 3rem;
+
+  }
+  /*SECTION LOCATION */
+  .locations {
+    height:100vh;
+  }
+  .locations-head {
+    background-image:"./C:\Users\user\Desktop\chethana github\demo-app-tour\Images\new-york-page.png";
+  }
+  }
+
+  /*SECTION BENEFITS*/
+  .benefits{
+    height:100vh;
+  }
+  .benefits-head{
+    background-color:#131c27;
+    color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  text-align: center;
+}
+
+.benefits-head h3 {
+  padding-top: 5rem;
+}
+
+.cards {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  margin: 2rem;
+}
+
+.card {
+  flex: 1 1 25rem;
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5), 0px 20px 20px rgba(0, 0, 0, 0.5);
+}
+
+.card img {
+  height: 8rem;
+}
+
+.card div {
+  background-color: #131c27;
+  padding: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card h4 {
+  padding: 2rem 1rem;
+}
+.card p {
+  padding-bottom: 2rem;
+  font-size: 1.3rem;
+  text-align: center;
+}
+  
+
+  }
   }
